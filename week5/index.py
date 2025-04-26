@@ -34,15 +34,15 @@ class Vehicle:
 
 class Car(Vehicle):
     def move(self):
-        return "Driving on the road 🚗"
+        return "Driving on the road"
 
 class Plane(Vehicle):
     def move(self):
-        return "Flying in the sky ✈️"
+        return "Flying in the sky"
 
 class Boat(Vehicle):
     def move(self):
-        return "Sailing across the sea 🚢"
+        return "Sailing across the sea"
 
 # Example usage
 vehicles = [Car(), Plane(), Boat()]
